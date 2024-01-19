@@ -1,0 +1,112 @@
+.form {
+  margin-top: -4%;
+  padding: 4%;
+}
+.form hr {
+  background: #fff;
+  opacity: 1;
+  margin-bottom: 6%;
+}
+.form input {
+  color: var(--color-dark--0);
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  border: 1px solid var(--color-light--2);
+  font-weight: 200;
+  background: var(--color-light--2);
+}
+.form input:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  border: 1px solid #7b8fa199;
+  color: var(--main-color);
+}
+/*  */
+.form select {
+  color: var(--color-dark--0);
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  border: 1px solid var(--color-light--2);
+  font-weight: 200;
+  background: var(--color-light--2);
+}
+.form select:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  border: 1px solid #7b8fa199;
+  color: var(--main-color);
+}
+
+/*  */
+.form .submit--btn {
+  color: #f5ddd2;
+  background: #406bcfa6;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 2%;
+}
+.form .submit--btn:hover {
+  background: #406bcf;
+  transition: all 0.5s ease-in-out;
+}
+.form .clear--btn {
+  color: var(--color-dark--0);
+  background: var(--color-light--1);
+  transition: all 0.5s ease-in-out;
+}
+.form .clear--btn:hover {
+  background: var(--color-light--2);
+  transition: all 0.5s ease-in-out;
+}
+
+/********************** Extra small devices (portrait phones, less than 576px) ****************************/
+@media (max-width: 575.98px) {
+}
+/************************ Small devices (landscape phones, 576px and up) *****************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    display: none;
+  }
+}
+/***************************** Medium devices (tablets, 768px and up) ********************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    display: none;
+  }
+}
+/********************************** Large devices (desktops, 992px and up) *********************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/************************ Extra large devices (large desktops, 1200px and up) ********************************/
+@media (min-width: 1200px) {
+  /* form styles */
+  .form {
+    margin-top: -21%;
+    padding: 8%;
+  }
+  .form hr {
+    margin-bottom: 6%;
+    opacity: 1;
+  }
+  .form input {
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+  }
+
+  /*  */
+  .form select {
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+  }
+
+  /*  */
+  .form .submit--btn {
+    margin-bottom: 2%;
+  }
+  .form .clear--btn {
+    letter-spacing: 1px;
+  }
+}
+
+/************************ Extra large devices (extra large desktops, 1900px and up) ********************************/
+@media (min-width: 2000px) {
+}

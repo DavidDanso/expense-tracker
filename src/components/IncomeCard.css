@@ -1,0 +1,126 @@
+.income--card h1 {
+  font-size: 1.8rem;
+  color: var(--color-light--1);
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.income--card h1 img {
+  width: 10%;
+}
+.income--card .card {
+  background: #f7f7f7f9;
+}
+#individaul--card {
+  margin: 1%;
+}
+#individaul--card .card {
+  border: 1px solid #fff;
+  background: #fff;
+}
+.income--card .col-md-12 {
+  margin-bottom: 1%;
+}
+.no-data--txt {
+  font-size: 1.1rem;
+  color: var(--color-dark--0);
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+#individaul--card h2 {
+  font-size: 1.2rem;
+  color: var(--color-dark--0);
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+#individaul--card h2 span {
+  font-size: 1.3rem;
+  color: #527853;
+  font-weight: 200;
+  float: right;
+}
+#individaul--card h6 {
+  font-size: 1rem;
+  color: #a9a9a9;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+#individaul--card h6 span img {
+  float: right;
+  cursor: pointer;
+}
+#individaul--card .card_icons {
+  width: 8%;
+}
+
+/* .income--card hr {
+  background: var(--color-dark--0);
+  opacity: 1;
+  margin-bottom: 6%;
+} */
+
+/********************** Extra small devices (portrait phones, less than 576px) ****************************/
+@media (max-width: 575.98px) {
+  .truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px; /* or any desired width */
+  }
+}
+/************************ Small devices (landscape phones, 576px and up) *****************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    display: none;
+  }
+}
+/***************************** Medium devices (tablets, 768px and up) ********************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    display: none;
+  }
+}
+/********************************** Large devices (desktops, 992px and up) *********************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/************************ Extra large devices (large desktops, 1200px and up) ********************************/
+@media (min-width: 1200px) {
+  /* income--card styles */
+  .income--card h1 {
+    font-size: 1.8rem;
+  }
+  .income--card h1 img {
+    width: 7%;
+  }
+  .income--card .col-md-12 {
+    margin-bottom: 1%;
+  }
+  #individaul--card {
+    margin: 1px;
+  }
+  .no-data--txt {
+    font-size: 1.1rem;
+    margin-top: 2%;
+  }
+  #individaul--card h2 {
+    font-size: 1.1rem;
+  }
+  #individaul--card h2 span {
+    font-size: 1.1rem;
+  }
+  #individaul--card h6 {
+    font-size: 1rem;
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+  #individaul--card .card_icons {
+    width: 4%;
+  }
+}
+
+/************************ Extra large devices (extra large desktops, 1900px and up) ********************************/
+@media (min-width: 2000px) {
+}

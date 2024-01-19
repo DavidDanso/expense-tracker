@@ -1,0 +1,26 @@
+/* These CSS variables are global, so they are available in all CSS modules */
+:root {
+  --color-brand--1: #951c2f;
+  --color-brand--2: #55dd4a;
+
+  --color-dark--0: #242424;
+  --color-dark--2: #42484d;
+  --color-light--1: #f6f6f3;
+  --color-light--2: #d6dee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 62.5%; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--color-dark--0);
+}
