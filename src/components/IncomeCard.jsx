@@ -8,7 +8,11 @@ export default function IncomeCard() {
     <div className="income--card">
       <h1>
         Income
-        <img src="trending-1.svg" className="card_icons" alt="card_icons" />
+        <img
+          src="./images/trending-1.svg"
+          className="card_icons"
+          alt="card_icons"
+        />
       </h1>
       <div className="card">
         <div className="card-body">
@@ -34,7 +38,7 @@ export default function IncomeCard() {
                             onClick={() => deleteTransaction(transaction.id)}
                           >
                             <img
-                              src="trash.svg"
+                              src="./images/trash.svg"
                               className="card_icons"
                               alt="card_icons"
                             />

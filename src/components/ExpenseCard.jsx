@@ -9,7 +9,11 @@ export default function ExpenseCard() {
     <div className="expense--card">
       <h1>
         Expense
-        <img src="trending-3.svg" className="card_icons" alt="card_icons" />
+        <img
+          src="./images/trending-3.svg"
+          className="card_icons"
+          alt="card_icons"
+        />
       </h1>
       <div className="card">
         <div className="card-body">
@@ -35,7 +39,7 @@ export default function ExpenseCard() {
                             onClick={() => deleteTransaction(transaction.id)}
                           >
                             <img
-                              src="trash.svg"
+                              src="./images/trash.svg"
                               className="card_icons"
                               alt="card_icons"
                             />

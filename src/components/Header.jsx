@@ -15,21 +15,21 @@ const Header = () => {
       <div className="row">
         <Card
           title={`${currentMonth} Budget`}
-          icon="calendar.svg"
+          icon="./images/calendar.svg"
           value={`${sign}${formatCurrency(monthlyBudget)}`}
-          icon_="pie-chart-outline.svg"
+          icon_="./images/pie-chart-outline.svg"
         />
         <Card
           title="Income"
-          icon="trending-1.svg"
+          icon="./images/trending-1.svg"
           value={`+${formatCurrency(totalIncome)}`}
-          icon_="cash-outline.svg"
+          icon_="./images/cash-outline.svg"
         />
         <Card
           title="Expense"
-          icon="trending-3.svg"
+          icon="./images/trending-3.svg"
           value={`-${formatCurrency(totalExpense)}`}
-          icon_="pulse-outline.svg"
+          icon_="./images/pulse-outline.svg"
         />
       </div>
     </div>
