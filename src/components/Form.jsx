@@ -7,7 +7,7 @@ export default function Form() {
   const { addTransaction } = useTransaction();
   const [formData, setFormData] = useState({
     description: "",
-    amount: 0,
+    amount: "",
     transactionType: "",
   });
 
@@ -42,7 +42,7 @@ export default function Form() {
     addTransaction(newTransaction);
     setFormData({
       description: "",
-      amount: 0,
+      amount: "",
       transactionType: "",
     });
   };
@@ -50,7 +50,7 @@ export default function Form() {
   const handleClearField = () => {
     setFormData({
       description: "",
-      amount: 0,
+      amount: "",
       transactionType: "",
     });
   };
